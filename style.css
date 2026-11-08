@@ -28,3 +28,7 @@ h2 { margin: 24px 0 10px; color: #244536; font-size: 20px; line-height: 1.3; }
 .steps li { padding-left: 4px; margin-bottom: 4px; }
 .steps li::marker { color: #315647; font-weight: 700; }
 .button { display: inline-flex; justify-content: space-between; align-items: center; gap: 30px; padding: 12px 20px; border: 1px solid #315647; border-radius: 5px; background: #315647; color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; }
+
+/* c. Pilt on raami ja varjuga. */
+figure img { display: block; width: 100%; height: auto; border: 1px solid #b9caba; border-radius: 12px; box-shadow: 0 8px 22px rgba(36, 69, 54, 0.08); }
+figcaption { margin-top: 8px; }
