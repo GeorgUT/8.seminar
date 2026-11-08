@@ -42,3 +42,24 @@ tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
 
 /* e. Kogu lehe taustavärv. */
 body { background-color: #f5f3ee; }
+
+/* f. Kaks sõltumatut sisutulpa CSS Gridiga. */
+.two-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; padding-top: 38px; }
+.overview h2 { margin-top: 0; }
+/* Kitsal ekraanil jääb sisu loetavaks ühes tulbas. */
+@media (max-width: 760px) {
+  .page { padding: 0 24px; }
+  .site-header { min-height: 80px; flex-wrap: wrap; gap: 0; padding: 16px 0; }
+  .brand { width: 100%; }
+  .two-columns { grid-template-columns: 1fr; gap: 36px; padding-top: 28px; }
+  h1 { font-size: 48px; }
+  .lead { font-size: 17px; }
+  .site-footer { align-items: flex-start; flex-direction: column; gap: 2px; margin-top: 28px; }
+  th, td { padding: 10px 8px; }
+}
+/* Lisaülesanne: liikumine ainult CSS-iga. */
+@media (prefers-reduced-motion: no-preference) {
+  .button { transition: background-color 180ms ease, transform 180ms ease; }
+  .button:hover { transform: translateY(-2px); }
+}
+.button:hover { background-color: #244536; }
