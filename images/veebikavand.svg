@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="240" viewBox="0 0 560 240" fill="none">
+  <title>Kahe tulbaga veebilehe kavand</title>
+  <rect width="560" height="240" rx="12" fill="#dfe8df"/>
+  <rect x="86" y="26" width="388" height="188" rx="8" fill="#fff" stroke="#315647" stroke-width="2"/>
+  <path d="M86 54H474" stroke="#315647" stroke-width="2"/>
+  <circle cx="103" cy="40" r="3" fill="#315647"/>
+  <circle cx="115" cy="40" r="3" fill="#93ad99"/>
+  <circle cx="127" cy="40" r="3" fill="#dfe8df"/>
+  <rect x="110" y="77" width="138" height="12" rx="3" fill="#315647"/>
+  <rect x="110" y="98" width="102" height="12" rx="3" fill="#315647"/>
+  <rect x="110" y="126" width="138" height="5" rx="2" fill="#c6d3c9"/>
+  <rect x="110" y="139" width="124" height="5" rx="2" fill="#c6d3c9"/>
+  <rect x="110" y="152" width="130" height="5" rx="2" fill="#c6d3c9"/>
+  <rect x="110" y="176" width="72" height="17" rx="3" fill="#315647"/>
+  <rect x="277" y="77" width="173" height="116" rx="5" fill="#edf1ec"/>
+  <circle cx="405" cy="105" r="12" fill="#d9b66a"/>
+  <path d="M287 179L333 120L363 154L384 136L441 179H287Z" fill="#93ad99"/>
+  <path d="M287 179L333 120L363 154L341 141L314 179H287Z" fill="#315647"/>
+</svg>

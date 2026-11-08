@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lihtne HTML-i ja CSS-i õppeveeb: kavandist avaliku repositooriumini.">
+  <title>Veebiõppe märkmik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#sisu">Liigu sisu juurde</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="index.html">Veebiõppe märkmik<span class="brand-dot" aria-hidden="true">.</span></a>
+      <span class="course">HTML &amp; CSS · GeorgUT</span>
+    </header>
+    <main id="sisu" class="two-columns">
+      <section class="intro" aria-labelledby="pealkiri">
+        <h1 id="pealkiri">Väike samm.<br>Oma veebileht.</h1>
+        <p class="lead">Iga veebileht algab ideest. HTML annab sellele sisu ja struktuuri, CSS aga välimuse.</p>
+        <h2>Kavandist koodini</h2>
+        <p>Alusta lihtsast Figma kavandist, loo lehe sisu ning lisa kujundus eraldi stiilifailis. Salvesta muudatused Gitiga.</p>
+        <ol class="steps">
+          <li>Kavanda lehe paigutus.</li>
+          <li>Kirjuta HTML ja kujunda CSS-iga.</li>
+          <li>Kontrolli tulemust ning jaga koodi.</li>
+        </ol>
+        <a class="button" href="https://github.com/GeorgUT/6-praks">Vaata lähtekoodi <span aria-hidden="true">↗</span></a>
+      </section>
+      <section class="overview" aria-labelledby="ulevaade">
+        <figure>
+          <img src="images/veebikavand.svg" width="560" height="240" alt="Veebilehe kavand: päis ning kõrvuti paiknevad teksti- ja pilditulp.">
+          <figcaption>Lihtne idee, selge struktuur.</figcaption>
+        </figure>
+        <h2 id="ulevaade">Neli tööriista, üks tervik</h2>
+        <table>
+          <caption class="visually-hidden">Veebilehe loomise tööriistad ja nende rollid</caption>
+          <thead><tr><th scope="col">Tööriist</th><th scope="col">Milleks seda kasutada?</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Figma</th><td>Kujunduse kavandamiseks</td></tr>
+            <tr><th scope="row">HTML</th><td>Sisu ja struktuuri loomiseks</td></tr>
+            <tr><th scope="row">CSS</th><td>Välimuse ja paigutuse määramiseks</td></tr>
+            <tr><th scope="row">Git</th><td>Muudatuste ajaloo hoidmiseks</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="site-footer"><span>GeorgUT · HTML-i ja CSS-i harjutus</span><span>Tehtud sammhaaval.</span></footer>
+  </div>
+</body>
+</html>
