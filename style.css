@@ -39,3 +39,6 @@ th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #d7dcd3;
 thead { background: #e3e9df; color: #244536; font-weight: 700; }
 tbody th { width: 26%; font-weight: 700; }
 tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
+
+/* e. Kogu lehe taustavärv. */
+body { background-color: #f5f3ee; }
